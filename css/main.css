@@ -1,0 +1,102 @@
+.main-section {
+  /*background: linear-gradient(to bottom, rgba(34,125,170,1) 0%, rgba(81,172,205,1) 100%);*/
+  background: linear-gradient(to bottom, #0000ff 0%, #9999ff 100%);
+  /*background: #cc6600;*/
+}
+
+.intro {
+  padding:30px;
+}
+.brand {
+  width:max-content;
+  padding-top: 30px;
+}
+
+.engineer {
+  font-weight:bold;
+}
+
+.engineer:after {
+  content: ' ';
+  display: block;
+  width: 50px;
+  margin: 10px auto -10px 0;
+  border: 2px solid #fff;
+}
+
+.about-title, .skillset-title {
+  color:#0000ff;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.about-title:after, .skillset-title:after {
+  content: ' ';
+  display: block;
+  width: 50px;
+  margin: 10px auto -10px 0;
+  border: 2px solid #0000ff;
+}
+
+.fa-lightbulb, .fa-cube, .fa-envelope {
+  padding-top: 10px;
+  color: #ccccff;
+  font-size: 48px;
+}
+
+.about-text > p {
+  color:#818181;
+  font-size:18px;
+  letter-spacing:1px;
+  line-height:30px;
+}
+
+.fa-connectdevelop, .fa-graduation-cap {
+  padding-top: 10px;
+  color: #eee;
+  font-size: 48px;
+}
+.experience-title, .education-title {
+  color:#fff;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.experience-title:after, .education-title:after {
+ content: ' ';
+ display: block;
+ width: 50px;
+ margin: 10px auto -10px 0;
+ border: 2px solid #fff;
+}
+.ex-conetent {
+  border: 1px solid rgba(255,255,255,0.4);
+  border-radius: .8rem;
+}
+.text-light-custom {
+  font-size: 18px;
+  opacity: .7;
+}
+
+.link-style {
+  color:white;
+}
+.link-style:hover {
+  color: #ddd;
+}
+
+.progress-text {
+  font-size: 15px;
+  letter-spacing: 2px;
+  /*color: rgba(34,125,170,1);*/
+  color: #0000ff;
+}
+
+.progress-bar {
+  /*background: linear-gradient(to right, rgba(34,125,170,1) 0%, rgba(81,172,205,1) 100%);*/
+  background: linear-gradient(to right, #0000ff 0%, #9999ff 100%);
+}
+
+.contact-text {
+  color:#818181;
+}
