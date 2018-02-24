@@ -1,14 +1,13 @@
 .main-section {
   /*background: linear-gradient(to bottom, rgba(34,125,170,1) 0%, rgba(81,172,205,1) 100%);*/
-  background: linear-gradient(to bottom, #0000ff 0%, #9999ff 100%);
+  background: linear-gradient(to bottom, #41be71 0%, #337ab7 100%);
   /*background: #cc6600;*/
 }
 
 .intro {
   padding:30px;
 }
-.brand {
-  width:max-content;
+.navbar-custom {
   padding-top: 30px;
 }
 
@@ -24,8 +23,8 @@
   border: 2px solid #fff;
 }
 
-.about-title, .skillset-title {
-  color:#0000ff;
+.about-title, .skillset-title, .contact-title {
+  color:#337ab7;
   font-weight: bold;
   letter-spacing: 2px;
 }
@@ -35,7 +34,7 @@
   display: block;
   width: 50px;
   margin: 10px auto -10px 0;
-  border: 2px solid #0000ff;
+  border: 2px solid #337ab7;
 }
 
 .fa-lightbulb, .fa-cube, .fa-envelope {
@@ -89,14 +88,22 @@
   font-size: 15px;
   letter-spacing: 2px;
   /*color: rgba(34,125,170,1);*/
-  color: #0000ff;
+  color: #666;
 }
 
 .progress-bar {
   /*background: linear-gradient(to right, rgba(34,125,170,1) 0%, rgba(81,172,205,1) 100%);*/
-  background: linear-gradient(to right, #0000ff 0%, #9999ff 100%);
+  background: linear-gradient(to right, #41be71 0%, #337ab7 100%);
 }
 
 .contact-text {
   color:#818181;
+}
+
+.footer-section {
+  background: #337ab7;
+}
+
+[v-cloak] {
+  display: none;
 }
