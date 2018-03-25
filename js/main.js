@@ -20,6 +20,7 @@ const messages = {
       ncku: 'National Cheng Kung University',
       general: 'General Subjects',
       kshs: 'Kaohsiung Senior High School',
+      myworks: 'My WORKS',
       contact: 'CONTACT ME',
       message: 'Feel free to leave me a message'
     }
@@ -43,6 +44,7 @@ const messages = {
       ncku: '國立成功大學',
       general: '普通科',
       kshs: '高雄中學',
+      myworks: '作品集',
       contact: '與我聯絡',
       message: '歡迎留下寶貴的訊息'
     }
