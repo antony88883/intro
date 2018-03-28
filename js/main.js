@@ -20,7 +20,7 @@ const messages = {
       ncku: 'National Cheng Kung University',
       general: 'General Subjects',
       kshs: 'Kaohsiung Senior High School',
-      myworks: 'My WORKS',
+      myworks: 'MY WORKS',
       contact: 'CONTACT ME',
       message: 'Feel free to leave me a message'
     }

@@ -15,4 +15,5 @@ $(document).ready(function(){
       next.children(':first-child').clone().appendTo($(this));
     }
   });
+  $(".carousel").carousel();
 });
