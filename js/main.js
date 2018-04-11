@@ -73,3 +73,20 @@ let app = new Vue({
     }
   }
 })
+
+$('.owl-carousel').owlCarousel({
+  loop: true,
+  lazyload: true,
+  margin: 10,
+  center: true,
+  stagePadding: 35,
+  //navText : ['<i class="fas fa-chevron-left fa-lg"></i>','<i class="fas fa-chevron-right fa-lg"></i>'],
+  responsive:{
+      0:{
+          items:1
+      },
+      700:{
+        items:2
+      }
+  }
+})

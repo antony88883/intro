@@ -10,7 +10,9 @@
 .navbar-custom {
   padding-top: 30px;
 }
-
+.bg-custom {
+  background-color: #aaa;
+}
 .engineer {
   font-weight:bold;
 }
@@ -129,6 +131,10 @@
   border-radius: .75rem;
 }
 
+.item img {
+  border-radius: .75rem;
+}
+
 .carousel-inner .carousel-item.active,
 .carousel-inner .carousel-item-next,
 .carousel-inner .carousel-item-prev {
@@ -149,4 +155,20 @@
 .carousel-inner .carousel-item-left{
   transform: translateX(0);
 
+}
+
+.owl-prev {
+    position: absolute;
+    top: 5%;
+    bottom: 5%;
+    left: -5px;
+    display: block!IMPORTANT;
+}
+
+.owl-next {
+    position: absolute;
+    top: 5%;
+    bottom: 5%;
+    right: -5px;
+    display: block!IMPORTANT;
 }
