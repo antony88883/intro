@@ -8,7 +8,7 @@ const messages = {
       about: 'ABOUT',
       abp1: 'Offering creative design solutions to solve business problems is what I do best.',
       abp2: 'I write in JavaScript, CSS, HTML, and Python.'+
-            ' I also use js framework such as Angularjs and vuejs.'+
+            ' I also use js framework such as AngularJs and Vue.js.'+
             ' I like working on scalability, performance, reusability, and great user experiences.',
       abp3: 'As a consultant and a developer, I write code that conforms to industry standards and semantic best practices.'+
             ' I am able to transform static artwork into pixel prefect, interactive and fully functional interfaces.',
