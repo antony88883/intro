@@ -13,7 +13,7 @@
   <link rel="icon shortcut" type="image/png" href="imgs/favicon.png" />
 </head>
 <body>
-  <div id="app">
+  <div id="app" v-cloak>
     <div class="container-fluid main-section">
       <div class="row justify-content-center">
         <div class="col-11 col-md-10">
@@ -26,7 +26,7 @@
             <button class="btn mr-sm-1" @click="switchlang('en')">en</button>
             <button class="btn my-1 ml-1 my-sm-0" @click="switchlang('zh_tw')">中</button>
           </div>
-          <div class="text-white" style="padding-top:100px;padding-bottom:130px" v-cloak>
+          <div class="text-white" style="padding-top:100px;padding-bottom:130px">
             <div class="engineer h1 mb-4">{{ $t("message.fne")}}</div>
             <p style="color:#d1d1d1">{{ $t("message.hello") }}</p>
             <h4 style="color:#eee;letter-spacing:1px;line-height:30px">{{ $t("message.world")}}</h4>
@@ -35,10 +35,10 @@
       </div>
     </div>
     <!--about-->
-    <div class="container-fluid" style="padding-top:80px" v-cloak>
+    <div class="container-fluid" style="padding-top:80px">
       <div class="row justify-content-center">
         <div class="col-11 col-sm-4 col-md-4 col-lg-3">
-          <h2 class="about-title" v-cloak>{{ $t("message.about")}}</h2>
+          <h2 class="about-title">{{ $t("message.about")}}</h2>
           <i class="far fa-lightbulb my-3"></i>
         </div>
         <div class="col-11 col-sm-4 col-md-6 col-lg-7 about-text">
@@ -50,7 +50,7 @@
       </div>
     </div>
     <!--experience-->
-    <div class="container-fluid main-section" style="padding-top:80px" v-cloak>
+    <div class="container-fluid main-section" style="padding-top:80px">
       <div class="row justify-content-center">
         <div class="col-11 col-sm-4 col-md-4 col-lg-3">
           <h2 class="experience-title">{{ $t("message.exp")}}</h2>
@@ -74,7 +74,7 @@
     <div class="container-fluid" style="padding-top:80px">
       <div class="row justify-content-center">
         <div class="col-11 col-sm-4 col-md-4 col-lg-3">
-          <h2 class="skillset-title" v-cloak>{{ $t("message.sks")}}</h2>
+          <h2 class="skillset-title">{{ $t("message.sks")}}</h2>
           <i class="fas fa-cube my-3"></i>
         </div>
         <div class="col-11 col-sm-4 col-md-6 col-lg-7" style="padding-bottom:80px">
@@ -132,7 +132,7 @@
       </div>
     </div>
     <!--education-->
-    <div class="container-fluid main-section" style="padding-top:80px;" v-cloak>
+    <div class="container-fluid main-section" style="padding-top:80px;">
       <div class="row justify-content-center">
         <div class="col-11 col-sm-4 col-md-4 col-lg-3">
           <h2 class="education-title">{{ $t("message.edu")}}</h2>
@@ -153,7 +153,7 @@
     <div class="container-fluid" style="padding-top:80px">
       <div class="row justify-content-center">
         <div class="col-11 col-sm-4 col-md-4 col-lg-3">
-          <h2 class="myworks-title" v-cloak>{{ $t("message.myworks")}}</h2>
+          <h2 class="myworks-title">{{ $t("message.myworks")}}</h2>
           <i class="fas fa-bookmark my-3"></i>
         </div>
         <div class="col-11 col-sm-4 col-md-6 col-lg-7" style="padding-bottom:80px">
@@ -251,11 +251,11 @@
     <div class="container-fluid main-section" style="padding-top:80px">
       <div class="row justify-content-center">
         <div class="col-11 col-sm-4 col-md-4 col-lg-3">
-          <h2 class="contact-title" v-cloak>{{ $t("message.contact")}}</h2>
+          <h2 class="contact-title">{{ $t("message.contact")}}</h2>
           <i class="far fa-envelope my-3"></i>
         </div>
         <div class="col-11 col-sm-4 col-md-6 col-lg-7" style="padding-bottom:80px">
-          <p class="contact-text" v-cloak>{{ $t("message.message")}}</p>
+          <p class="contact-text">{{ $t("message.message")}}</p>
           <p class="contact-text h4">antony88883@gmail.com</p>
         </div>
       </div>
