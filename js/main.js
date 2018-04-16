@@ -71,6 +71,14 @@ let app = new Vue({
         }
       },300);
     }
+  },
+  beforeCreate: function(){
+    $(".loader, .loader-frame, .overlay").show();
+  },
+  created: function(){
+    setTimeout(function(){
+      $(".loader-frame, .overlay").hide();
+    },1200)
   }
 })
 

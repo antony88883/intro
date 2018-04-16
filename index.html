@@ -26,22 +26,22 @@
             <button class="btn mr-sm-1" @click="switchlang('en')">en</button>
             <button class="btn my-1 ml-1 my-sm-0" @click="switchlang('zh_tw')">中</button>
           </div>
-          <div class="text-white" style="padding-top:100px;padding-bottom:130px">
-            <div class="engineer h1 mb-4" v-cloak>{{ $t("message.fne")}}</div>
-            <p style="color:#d1d1d1" v-cloak>{{ $t("message.hello") }}</p>
-            <h4 style="color:#eee;letter-spacing:1px;line-height:30px" v-cloak>{{ $t("message.world")}}</h4>
+          <div class="text-white" style="padding-top:100px;padding-bottom:130px" v-cloak>
+            <div class="engineer h1 mb-4">{{ $t("message.fne")}}</div>
+            <p style="color:#d1d1d1">{{ $t("message.hello") }}</p>
+            <h4 style="color:#eee;letter-spacing:1px;line-height:30px">{{ $t("message.world")}}</h4>
           </div>
         </div>
       </div>
     </div>
     <!--about-->
-    <div class="container-fluid" style="padding-top:80px">
+    <div class="container-fluid" style="padding-top:80px" v-cloak>
       <div class="row justify-content-center">
         <div class="col-11 col-sm-4 col-md-4 col-lg-3">
           <h2 class="about-title" v-cloak>{{ $t("message.about")}}</h2>
           <i class="far fa-lightbulb my-3"></i>
         </div>
-        <div class="col-11 col-sm-4 col-md-6 col-lg-7 about-text" v-cloak>
+        <div class="col-11 col-sm-4 col-md-6 col-lg-7 about-text">
           <h4 style="color:#58798c">ANTONY ZHANG</h4>
           <p>{{ $t("message.abp1")}}</p>
           <p>{{ $t("message.abp2")}}</p>
@@ -50,10 +50,10 @@
       </div>
     </div>
     <!--experience-->
-    <div class="container-fluid main-section" style="padding-top:80px">
+    <div class="container-fluid main-section" style="padding-top:80px" v-cloak>
       <div class="row justify-content-center">
         <div class="col-11 col-sm-4 col-md-4 col-lg-3">
-          <h2 class="experience-title" v-cloak>{{ $t("message.exp")}}</h2>
+          <h2 class="experience-title">{{ $t("message.exp")}}</h2>
           <i class="fab fa-connectdevelop my-3"></i>
         </div>
         <div class="col-11 col-sm-4 col-md-6 col-lg-7" style="padding-bottom:64px">
@@ -132,7 +132,7 @@
       </div>
     </div>
     <!--education-->
-    <div class="container-fluid main-section" style="padding-top:80px;">
+    <div class="container-fluid main-section" style="padding-top:80px;" v-cloak>
       <div class="row justify-content-center">
         <div class="col-11 col-sm-4 col-md-4 col-lg-3">
           <h2 class="education-title">{{ $t("message.edu")}}</h2>
@@ -268,6 +268,12 @@
         </div>
       </div>
     </div>
+    <!--overlay-->
+    <div class="loader-frame px-3 py-1" style="display:none">
+      <div class="loader"></div>
+      <p class="color-main mb-0">載入中...</p>
+    </div>
+    <div class="overlay" style="display:none"></div>
   </div>
   <!--bootstrap webkit-->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
