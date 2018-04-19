@@ -78,7 +78,7 @@ let app = new Vue({
   created: function(){
     setTimeout(function(){
       $(".loader-frame, .overlay").hide();
-    },1200)
+    },2000)
   }
 })
 
