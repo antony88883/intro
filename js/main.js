@@ -90,7 +90,8 @@ $('.owl-carousel').owlCarousel({
   margin: 10,
   center: true,
   stagePadding: 35,
-  //navText : ['<i class="fas fa-chevron-left fa-lg"></i>','<i class="fas fa-chevron-right fa-lg"></i>'],
+  nav: true,
+  navText : ['<i class="fas fa-chevron-left fa-lg text-secondary"></i>','<i class="fas fa-chevron-right fa-lg text-secondary"></i>'],
   responsive:{
       0:{
           items:1
