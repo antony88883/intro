@@ -22,7 +22,8 @@ const messages = {
       kshs: 'Kaohsiung Senior High School',
       myworks: 'MY WORKS',
       contact: 'CONTACT ME',
-      message: 'Feel free to leave me a message'
+      message: 'Feel free to leave me a message',
+      loading: 'Loading'
     }
   },
   zh_tw: {
@@ -46,7 +47,8 @@ const messages = {
       kshs: '高雄中學',
       myworks: '作品集',
       contact: '與我聯絡',
-      message: '歡迎留下寶貴的訊息'
+      message: '歡迎留下寶貴的訊息',
+      loading: '載入中'
     }
   }
 };

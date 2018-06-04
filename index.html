@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Global site tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-78634513-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-78634513-2');
+  </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -23,8 +32,8 @@
             </a>
           </nav>
           <div>
-            <button class="btn mr-sm-1" @click="switchlang('en')">en</button>
-            <button class="btn my-1 ml-1 my-sm-0" @click="switchlang('zh_tw')">中</button>
+            <button class="btn brn-light mr-sm-1" @click="switchlang('en')">en</button>
+            <button class="btn btn-light my-1 ml-1 my-sm-0" @click="switchlang('zh_tw')">中</button>
           </div>
           <div class="text-white" style="padding-top:100px;padding-bottom:130px">
             <div class="engineer h1 mb-4">{{ $t("message.fne")}}</div>
@@ -271,7 +280,7 @@
     <!--overlay-->
     <div class="loader-frame px-3 py-1" style="display:none">
       <div class="loader"></div>
-      <p class="color-main mb-0">載入中...</p>
+      <p class="color-main mb-0">{{ $t("message.loading")}}...</p>
     </div>
     <div class="overlay" style="display:none"></div>
   </div>
