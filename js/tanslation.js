@@ -2,7 +2,7 @@
 const messages = {
   en: {
     message: {
-      sce: 'Senior Cloud Engineer',
+      cengineer: 'Senior Cloud Engineer',
       hello: 'In the past, those days surrounded by routines...until entering into the programming world, everything has changed!',
       world: 'Focus on building rich interactive web apps with solid foundations of science and mathematics',
       about: 'ABOUT',
@@ -31,12 +31,13 @@ const messages = {
       newtaipei: 'New Taipei',
       taoyuan: 'Taoyuan',
       finance: 'Finance',
-      iot: 'IoT'
+      iot: 'IoT',
+      umt: 'UMT'
     }
   },
   zh_tw: {
     message: {
-      sce: '資深雲端工程師',
+      cengineer: '資深雲端工程師',
       hello: '回想從前，那些重複瑣事...直到踏入程式的世界後，一切都不一樣了！',
       world: '專注於打造具豐富體驗的應用程式，憑藉科學基礎的養成與數學能力',
       about: '關於我',
@@ -64,7 +65,8 @@ const messages = {
       newtaipei: '新北市',
       taoyuan: '桃園市',
       finance: '金融業',
-      iot: '物聯網'
+      iot: '物聯網',
+      umt: '歐蒙德股份有限公司'
     }
   }
 };

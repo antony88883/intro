@@ -21,7 +21,8 @@ let app = new Vue({
   },
   data: {
     fucoLink: "https://www.rawstone.com.tw",
-    luffaLink: "https://www.luffanet.com.tw"
+    luffaLink: "https://www.luffanet.com.tw",
+    umtLink: "https://umt.tw/"
   },
   beforeCreate: function(){
     $(".loader, .loader-frame, .overlay").show();

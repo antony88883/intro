@@ -37,7 +37,7 @@
           </div>
           <div class="text-white text-center" style="padding-top:80px;padding-bottom:130px">
               <img src="imgs/me.jpg" class="rounded-circle" width="200" alt="profile">
-            <h1 class="engineer h1 my-4">{{ $t("message.sce")}}</h1>
+            <h1 class="engineer h1 my-4">{{ $t("message.cengineer")}}</h1>
             <p style="color:#d1d1d1">{{ $t("message.hello") }}</p>
             <h4 style="color:#eee;letter-spacing:1px;line-height:30px">{{ $t("message.world")}}</h4>
           </div>
@@ -66,6 +66,19 @@
           <i class="fab fa-connectdevelop my-3"></i>
         </div>
         <div class="col-11 col-sm-4 col-md-6 col-lg-7" style="padding-bottom:64px">
+          <a :href="umtLink" target="_blank" class="text-decoration-none">
+            <div class="ex-conetent text-white p-3 mb-3">
+              <h4>{{ $t("message.umt") }}&nbsp;
+                <i class="fas fa-angle-double-right text-light-custom"></i>
+              </h4>
+              <div>
+                <span class="badge badge-pill badge-secondary">{{ $t("message.newtaipei")}}</span>
+                <span class="badge badge-pill badge-secondary">{{ $t("message.iot")}}</span>
+              </div>
+              <small>February 2021 - Present</small>
+              <p class="text-light-custom mt-3">{{ $t("message.cengineer") }}</p>
+            </div>
+            </a>
           <a :href="luffaLink" target="_blank" class="text-decoration-none">
           <div class="ex-conetent text-white p-3 mb-3">
             <h4>{{ $t("message.luffanet") }}&nbsp;
