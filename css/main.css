@@ -17,14 +17,6 @@
   font-weight:bold;
 }
 
-.engineer:after {
-  content: ' ';
-  display: block;
-  width: 50px;
-  margin: 10px auto -10px 0;
-  border: 2px solid #fff;
-}
-
 .about-title, .skillset-title, .myworks-title {
   color:#337ab7;
   font-weight: bold;
