@@ -25,7 +25,7 @@ let app = new Vue({
   created: function(){
     setTimeout(function(){
       $(".loader-frame, .overlay").hide();
-    },2000)
+    }, 400)
   }
 })
 
