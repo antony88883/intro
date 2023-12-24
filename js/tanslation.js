@@ -3,7 +3,7 @@ const messages = {
   en: {
     message: {
       fse: 'FULL STACK ENGINEER',
-      hello: 'In the past, those days surrounded by routines...until entering into the front-end world, everything has changed!',
+      hello: 'In the past, those days surrounded by routines...until entering into the programming world, everything has changed!',
       world: 'focus on building rich interactive web apps with solid foundations of science and mathematics',
       about: 'ABOUT',
       abp1: 'Offering creative design solutions to solve business problems is what I do best.',
@@ -13,7 +13,10 @@ const messages = {
       abp3: 'As a consultant and a developer, I write code that conforms to industry standards and semantic best practices.'+
             ' I am able to transform static artwork into pixel prefect, interactive and fully functional interfaces.',
       exp: 'EXPERIENCE',
+      luffanet: "luffanet",
+      softe: "Software Engineer",
       fuco: 'Fuco & Solution',
+      fe: 'Front End Developer',
       sks: 'SKILLSET',
       edu: 'EDUCATION',
       math: 'Department of Mathematics',
@@ -29,7 +32,7 @@ const messages = {
   zh_tw: {
     message: {
       fse: '全端工程師',
-      hello: '回想從前，那些重複瑣事...直到踏入前端的世界後，一切都不一樣了！',
+      hello: '回想從前，那些重複瑣事...直到踏入程式的世界後，一切都不一樣了！',
       world: '專注於打造具豐富體驗的應用程式，憑藉科學基礎的養成與數學能力',
       about: '關於我',
       abp1: '我擅長於針對商業邏輯問題提出創新的解決方案。',
@@ -38,7 +41,10 @@ const messages = {
       abp3: '身為一位專業的技術顧問與開發者，我能撰寫符合工業標準的程式並實踐最佳語意化，'+
             '以及將平面設計轉化成生動活潑的使用介面。',
       exp: '工作經驗',
+      luffanet: "辰信資訊",
+      softe: "軟體工程師",
       fuco: '景丞科技',
+      fe: '前端工程師',
       sks: '技能組合',
       edu: '學習經驗',
       math: '數學系',

@@ -19,6 +19,10 @@ let app = new Vue({
       },300);
     }
   },
+  data: {
+    fucoLink: "https://www.rawstone.com.tw",
+    luffaLink: "https://www.luffanet.com.tw"
+  },
   beforeCreate: function(){
     $(".loader, .loader-frame, .overlay").show();
   },

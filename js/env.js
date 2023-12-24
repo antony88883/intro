@@ -1,0 +1,1 @@
+const fucoLink = "https://www.rawstone.com.tw";
