@@ -15,7 +15,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Antony Zhang - front-end-engineer</title>
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="css/owl.carousel.min.css">
   <link rel="stylesheet" href="css/owl.theme.default.min.css">
   <link rel="stylesheet" href="css/main.css">
@@ -32,12 +32,12 @@
             </a>
           </nav>
           <div>
-            <button class="btn btn-light mr-sm-1" @click="switchlang('en')">en</button>
+            <button class="btn btn-light mr-sm-1" @click="switchlang('en')">English</button>
             <button class="btn btn-light my-1 ml-1 my-sm-0" @click="switchlang('zh_tw')">中</button>
           </div>
           <div class="text-white text-center" style="padding-top:80px;padding-bottom:130px">
               <img src="imgs/me.jpg" class="rounded-circle" width="200" alt="profile">
-            <div class="engineer h1 my-4">{{ $t("message.fse")}}</div>
+            <h1 class="engineer h1 my-4">{{ $t("message.sce")}}</h1>
             <p style="color:#d1d1d1">{{ $t("message.hello") }}</p>
             <h4 style="color:#eee;letter-spacing:1px;line-height:30px">{{ $t("message.world")}}</h4>
           </div>
@@ -52,7 +52,6 @@
           <i class="far fa-lightbulb my-3"></i>
         </div>
         <div class="col-11 col-sm-4 col-md-6 col-lg-7 about-text">
-          <h4 style="color:#58798c">ANTONY ZHANG</h4>
           <p>{{ $t("message.abp1")}}</p>
           <p>{{ $t("message.abp2")}}</p>
           <p style="padding-bottom:54px">{{ $t("message.abp3")}}</p>
@@ -67,23 +66,31 @@
           <i class="fab fa-connectdevelop my-3"></i>
         </div>
         <div class="col-11 col-sm-4 col-md-6 col-lg-7" style="padding-bottom:64px">
-          <a :href="luffaLink" target="_blank" class="link-style">
+          <a :href="luffaLink" target="_blank" class="text-decoration-none">
           <div class="ex-conetent text-white p-3 mb-3">
             <h4>{{ $t("message.luffanet") }}&nbsp;
-                <i class="fas fa-angle-double-right text-light-custom"></i>
-              </h4>
-              <small>August 2018 - February 2021</small>
-              <p class="text-light-custom mt-3">{{ $t("message.softe") }}</p>
+              <i class="fas fa-angle-double-right text-light-custom"></i>
+            </h4>
+            <div>
+              <span class="badge badge-pill badge-secondary">{{ $t("message.taoyuan")}}</span>
+              <span class="badge badge-pill badge-secondary">{{ $t("message.iot")}}</span>
             </div>
+            <small>August 2018 - February 2021</small>
+            <p class="text-light-custom mt-3">{{ $t("message.softe") }}</p>
+          </div>
           </a>
-          <a :href="fucoLink" target="_blank" class="link-style">
+          <a :href="fucoLink" target="_blank" class="text-decoration-none">
           <div class="ex-conetent text-white p-3 mb-3">
             <h4>{{ $t("message.fuco") }}&nbsp;
-                <i class="fas fa-angle-double-right text-light-custom"></i>
-              </h4>
-              <small>August 2016 - August 2018</small>
-              <p class="text-light-custom mt-3">{{ $t('message.fe') }}</p>
+              <i class="fas fa-angle-double-right text-light-custom"></i>
+            </h4>
+            <div>
+              <span class="badge badge-pill badge-secondary">{{ $t("message.taipei")}}</span>
+              <span class="badge badge-pill badge-secondary">{{ $t("message.finance")}}</span>
             </div>
+            <small>August 2016 - August 2018</small>
+            <p class="text-light-custom mt-3">{{ $t('message.fe') }}</p>
+          </div>
           </a>
         </div>
       </div>
@@ -255,9 +262,9 @@
     <div class="overlay" style="display:none"></div>
   </div>
   <!--bootstrap webkit-->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   <!--vuejs part-->
   <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>
   <script src="https://unpkg.com/vue-i18n@8"></script>

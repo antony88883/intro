@@ -2,9 +2,9 @@
 const messages = {
   en: {
     message: {
-      fse: 'FULL STACK ENGINEER',
+      sce: 'Senior Cloud Engineer',
       hello: 'In the past, those days surrounded by routines...until entering into the programming world, everything has changed!',
-      world: 'focus on building rich interactive web apps with solid foundations of science and mathematics',
+      world: 'Focus on building rich interactive web apps with solid foundations of science and mathematics',
       about: 'ABOUT',
       abp1: 'Offering creative design solutions to solve business problems is what I do best.',
       abp2: 'I write in JavaScript, CSS, HTML, and Python.'+
@@ -26,12 +26,17 @@ const messages = {
       myworks: 'MY WORKS',
       contact: 'CONTACT ME',
       message: 'Feel free to leave me a message',
-      loading: 'Loading'
+      loading: 'Loading',
+      taipei: 'Taipei',
+      newtaipei: 'New Taipei',
+      taoyuan: 'Taoyuan',
+      finance: 'Finance',
+      iot: 'IoT'
     }
   },
   zh_tw: {
     message: {
-      fse: '全端工程師',
+      sce: '資深雲端工程師',
       hello: '回想從前，那些重複瑣事...直到踏入程式的世界後，一切都不一樣了！',
       world: '專注於打造具豐富體驗的應用程式，憑藉科學基礎的養成與數學能力',
       about: '關於我',
@@ -54,7 +59,12 @@ const messages = {
       myworks: '作品集',
       contact: '與我聯絡',
       message: '歡迎留下寶貴的訊息',
-      loading: '載入中'
+      loading: '載入中',
+      taipei: '台北市',
+      newtaipei: '新北市',
+      taoyuan: '桃園市',
+      finance: '金融業',
+      iot: '物聯網'
     }
   }
 };
