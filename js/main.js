@@ -68,13 +68,17 @@ let app = new Vue({
         { name: 'Javascript', value: '100' },
         { name: 'NodeJS', value: '100' },
         { name: 'AWS', value: '95' },
-        { name: 'Vue', value: '100' },
+        { name: 'VUE', value: '100' },
         { name: 'Bootstrap 5', value: '95' },
         { name: 'TailwindCSS', value: '90' },
-        { name: 'JQUERY', value: '90'},
+        { name: 'JQUERY', value: '90' },
         { name: 'Ionic 7', value: '90' },
         { name: 'Python', value: '90' },
         { name: 'GCP', value: '80' }
+      ],
+      educations: [
+        { year: '2013', school: 'message.ncku', subject: 'message.math' },
+        { year: '2009', school: 'message.kshs', subject: 'message.general' }
       ]
     }
   },

@@ -119,13 +119,11 @@
           <i class="fas fa-graduation-cap my-3"></i>
         </div>
         <div class="col-11 col-sm-4 col-md-6 col-lg-7 text-white" style="padding-bottom:80px">
-          <small class="text-light-custom">2013</small>
-          <h4>{{ $t("message.math")}}</h4>
-          <p class="text-light-custom">{{ $t("message.ncku")}}</p>
-          <br>
-          <small class="text-light-custom">2009</small>
-          <h4>{{ $t("message.general")}}</h4>
-          <p class="text-light-custom">{{ $t("message.kshs")}}</p>
+          <div class="mb-3" v-for="e in educations">
+            <span class="badge badge-secondary mb-2">{{ $t(e.year) }}</span>
+            <h4>{{ $t(e.subject) }}</h4>
+            <p class="text-light-custom">{{ $t(e.school) }}</p>
+          </div>
         </div>
       </div>
     </div>
