@@ -73,12 +73,12 @@
             <div class="card-body custom-opacity">
               <h4>{{ $t(e.title) }}</h4>
               <p class="mb-2">{{ $t(e.company) }}, {{ $t(e.location) }}</p>
-              <div>
+              <div class="mb-2">
                 <span class="badge badge-secondary">{{ $t(e.field) }}</span>
                 <span class="badge badge-secondary">{{ e.period }}</span>
               </div>
               <div class="text-right">
-                <a type="button" class="btn btn-outline-light" :href="e.link">View</a>
+                <a type="button" class="btn btn-outline-light" :href="e.link">{{ $t("message.view") }}</a>
               </div>
             </div>
           </div>

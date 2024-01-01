@@ -32,7 +32,8 @@ const messages = {
       taoyuan: 'Taoyuan',
       finance: 'Finance',
       iot: 'IoT',
-      umt: 'UMT'
+      umt: 'UMT',
+      view: 'view'
     }
   },
   zh_tw: {
@@ -66,7 +67,8 @@ const messages = {
       taoyuan: '桃園市',
       finance: '金融業',
       iot: '物聯網',
-      umt: '歐蒙德'
+      umt: '歐蒙德',
+      view: '暸解'
     }
   }
 };
