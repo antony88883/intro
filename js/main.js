@@ -21,9 +21,32 @@ let app = new Vue({
   },
   data: function () {
     return {
-      fucoLink: "https://www.rawstone.com.tw",
-      luffaLink: "https://www.luffanet.com.tw",
-      umtLink: "https://umt.tw"
+      experiences: [
+        {
+          link: "https://umt.tw",
+          company: "message.umt",
+          field: "message.iot",
+          location: "message.newtaipei",
+          title: "message.cengineer",
+          period: "February 2021 - Present"
+        },
+        {
+          link: "https://www.luffanet.com.tw",
+          company: "message.luffanet",
+          field: "message.iot",
+          location: "message.taoyuan",
+          title: "message.softe",
+          period: "August 2018 - February 2021"
+        },
+        {
+          link: "https://www.rawstone.com.tw",
+          company: "message.fuco",
+          field: "message.finance",
+          location: "message.taipei",
+          title: "message.fe",
+          period: "August 2016 - August 2018"
+        },
+      ]
     }
   },
   beforeCreate: function(){

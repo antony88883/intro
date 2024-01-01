@@ -55,9 +55,9 @@
           <i class="far fa-lightbulb my-3"></i>
         </div>
         <div class="col-11 col-sm-4 col-md-6 col-lg-7 about-text">
-          <p>{{ $t("message.abp1")}}</p>
-          <p>{{ $t("message.abp2")}}</p>
-          <p style="padding-bottom:54px">{{ $t("message.abp3")}}</p>
+          <p>{{ $t("message.about1")}}</p>
+          <p>{{ $t("message.about2")}}</p>
+          <p style="padding-bottom:54px">{{ $t("message.about3")}}</p>
         </div>
       </div>
     </div>
@@ -69,45 +69,19 @@
           <i class="fab fa-connectdevelop my-3"></i>
         </div>
         <div class="col-11 col-sm-4 col-md-6 col-lg-7" style="padding-bottom:64px">
-          <a :href="umtLink" target="_blank" class="text-decoration-none">
-            <div class="ex-conetent text-white p-3 mb-3">
-              <h4>{{ $t("message.umt") }}&nbsp;
-                <i class="fas fa-angle-double-right text-light-custom"></i>
-              </h4>
+          <div class="card text-white border-light bg-transparent mb-3 custom-radius" v-for="e in experiences">
+            <div class="card-body custom-opacity">
+              <h4>{{ $t(e.title) }}</h4>
+              <p class="mb-2">{{ $t(e.company) }}, {{ $t(e.location) }}</p>
               <div>
-                <span class="badge badge-pill badge-secondary">{{ $t("message.newtaipei")}}</span>
-                <span class="badge badge-pill badge-secondary">{{ $t("message.iot")}}</span>
+                <span class="badge badge-secondary">{{ $t(e.field) }}</span>
+                <span class="badge badge-secondary">{{ $t(e.period) }}</span>
               </div>
-              <small>February 2021 - Present</small>
-              <p class="text-light-custom mt-3">{{ $t("message.cengineer") }}</p>
+              <div class="text-right">
+                <a type="button" class="btn btn-outline-light" :href="e.link">View</a>
+              </div>
             </div>
-            </a>
-          <a :href="luffaLink" target="_blank" class="text-decoration-none">
-          <div class="ex-conetent text-white p-3 mb-3">
-            <h4>{{ $t("message.luffanet") }}&nbsp;
-              <i class="fas fa-angle-double-right text-light-custom"></i>
-            </h4>
-            <div>
-              <span class="badge badge-pill badge-secondary">{{ $t("message.taoyuan")}}</span>
-              <span class="badge badge-pill badge-secondary">{{ $t("message.iot")}}</span>
-            </div>
-            <small>August 2018 - February 2021</small>
-            <p class="text-light-custom mt-3">{{ $t("message.softe") }}</p>
           </div>
-          </a>
-          <a :href="fucoLink" target="_blank" class="text-decoration-none">
-          <div class="ex-conetent text-white p-3 mb-3">
-            <h4>{{ $t("message.fuco") }}&nbsp;
-              <i class="fas fa-angle-double-right text-light-custom"></i>
-            </h4>
-            <div>
-              <span class="badge badge-pill badge-secondary">{{ $t("message.taipei")}}</span>
-              <span class="badge badge-pill badge-secondary">{{ $t("message.finance")}}</span>
-            </div>
-            <small>August 2016 - August 2018</small>
-            <p class="text-light-custom mt-3">{{ $t('message.fe') }}</p>
-          </div>
-          </a>
         </div>
       </div>
     </div>
@@ -269,7 +243,7 @@
     <!--overlay-->
     <div class="loader-frame px-3 py-1" style="display:none">
       <div class="loader"></div>
-      <p class="color-main mb-0">{{ $t("message.loading")}}...</p>
+      <p class="color-main mb-0">{{ $t("message.loading") }}...</p>
     </div>
     <div class="overlay" style="display:none"></div>
   </div>

@@ -62,13 +62,13 @@
  margin: 10px auto -10px 0;
  border: 2px solid #fff;
 }
-.ex-conetent {
-  border: 1px solid rgba(255,255,255,0.4);
+
+.custom-radius {
   border-radius: .8rem;
 }
-.text-light-custom {
-  font-size: 18px;
-  opacity: .7;
+
+.custom-opacity {
+  opacity: .95;
 }
 
 .link-style {
