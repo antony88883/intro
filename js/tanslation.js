@@ -9,12 +9,21 @@ const messages = {
       world: 'Focus on building rich interactive web apps with solid foundations of science and mathematics',
       about: 'ABOUT',
       about1: 'Offering creative design solutions to solve business problems is what I do best.',
-      about2: 'I write in JavaScript, CSS, HTML, and Python.'+
-            ' I also use js framework such as AngularJs and Vue.js.'+
-            ' I like working on scalability, performance, reusability, and great user experiences.',
-      about3: 'As a consultant and a developer, I write code that conforms to industry standards and semantic best practices.'+
-            ' I am able to transform static artwork into pixel prefect, interactive and fully functional interfaces.',
+      about2: 'I write in JavaScript, CSS, HTML, and Python.' +
+        'I also use js framework such as AngularJs and Vue.js.' +
+        'I like working on scalability, performance, reusability, and great user experiences.',
+      about3: 'As a consultant and a developer, I write code that conforms to industry standards and semantic best practices.' +
+        'I am able to transform static artwork into pixel prefect, interactive and fully functional interfaces.',
       exp: 'EXPERIENCE',
+      assistEuropeanClientsAWSPlanning: "Assisting European clients building with AWS (EC2, Lambda, DynamoDB, S3, CloudFront).",
+      implementVoiceAssistantServices: "Implementing Amazon Alexa and Google Action voice assistant services.",
+      upgradeClientSideUI: "Upgrading client-side user interfaces (Vue3, Ionic 7).",
+      planLocalUIIoTDevices: "Independently planning the local user interface for IoT devices using Vue.",
+      buildSmartHomeCloudServices: "Building smart home cloud services, including automated trigger programs and data analysis charts.",
+      useFirebaseDataManagement: "Utilizing Google Firebase for data management and extending local and cloud data interaction channels.",
+      assistDesignOBankBackendTool: "Assisting in designing the OBank backend tool for billing.",
+      constructOnlineAppPages: "Constructing online application pages (Horizon Securities).",
+      creditCardBillingApp: "Credit card billing push notification applications (ESUN Bank, COTA Bank).",
       luffanet: "luffanet",
       fuco: 'Rawstone',
       sks: 'SKILLSET',
@@ -45,11 +54,20 @@ const messages = {
       world: '專注於打造具豐富體驗的應用程式，憑藉科學基礎的養成與數學能力',
       about: '關於我',
       about1: '我擅長於針對商業邏輯問題提出創新的解決方案。',
-      about2: '撰寫程式包括JavaScript, CSS, HTML與Python。也會靈活運用像是 AngularJs 與 VueJs 這類ＪＳ框架。'+
-            '對程式擴展性、執行效率、可重複使用性以及使用者體驗都有相關工作經驗。',
-      about3: '身為一位專業的技術顧問與開發者，我能撰寫符合工業標準的程式並實踐最佳語意化，'+
-            '以及將平面設計轉化成生動活潑的使用介面。',
+      about2: '撰寫程式包括JavaScript, CSS, HTML與Python。也會靈活運用像是 AngularJs 與 VueJs 這類ＪＳ框架。' +
+        '對程式擴展性、執行效率、可重複使用性以及使用者體驗都有相關工作經驗。',
+      about3: '身為一位專業的技術顧問與開發者，我能撰寫符合工業標準的程式並實踐最佳語意化，' +
+        '以及將平面設計轉化成生動活潑的使用介面。',
       exp: '工作經驗',
+      assistEuropeanClientsAWSPlanning: "協助歐洲客戶進行AWS規劃(EC2, Lambda, DynamoDB, S3, CloudFront)。",
+      implementVoiceAssistantServices: "導入Amazon Alexa與Google Action語音助理服務。",
+      upgradeClientSideUI: "客戶端使用者介面版本升級(Vue3, Ionic 7)。",
+      planLocalUIIoTDevices: "獨立規劃物聯網IoT裝置本機端使用者介面，使用Vue進行開發。",
+      buildSmartHomeCloudServices: "建構智慧家庭雲端服務，包括自動化觸發程式，數據分析圖表。",
+      useFirebaseDataManagement: "使用Google Firebase作為資料管理，並延伸出本地端與雲端資料交互渠道。",
+      assistDesignOBankBackendTool: "協助設計對帳單後台工具(OBank)。",
+      constructOnlineAppPages: "建構線上申辦頁面(宏遠證券)。",
+      creditCardBillingApp: "信用卡對帳單推播應用(玉山銀行、三信商銀)。",
       luffanet: "辰信資訊",
       fuco: '景承科技',
       sks: '技能組合',

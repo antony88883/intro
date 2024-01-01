@@ -28,7 +28,12 @@ let app = new Vue({
           field: "message.iot",
           location: "message.newtaipei",
           title: "message.cloudEngineer",
-          period: "February 2021 - Present"
+          period: "February 2021 - Present",
+          content: [
+            "message.assistEuropeanClientsAWSPlanning",
+            "message.implementVoiceAssistantServices",
+            "message.upgradeClientSideUI"
+          ]
         },
         {
           link: "https://www.luffanet.com.tw",
@@ -36,7 +41,12 @@ let app = new Vue({
           field: "message.iot",
           location: "message.taoyuan",
           title: "message.softwareEngineer",
-          period: "August 2018 - February 2021"
+          period: "August 2018 - February 2021",
+          content: [
+            "message.planLocalUIIoTDevices",
+            "message.buildSmartHomeCloudServices",
+            "message.useFirebaseDataManagement"
+          ]
         },
         {
           link: "https://www.rawstone.com.tw",
@@ -44,7 +54,12 @@ let app = new Vue({
           field: "message.finance",
           location: "message.taipei",
           title: "message.frontendEngineer",
-          period: "August 2016 - August 2018"
+          period: "August 2016 - August 2018",
+          content: [
+            "message.assistDesignOBankBackendTool",
+            "message.constructOnlineAppPages",
+            "message.creditCardBillingApp"
+          ]
         },
       ]
     }

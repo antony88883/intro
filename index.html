@@ -75,6 +75,9 @@
               <h4>{{ $t(e.title) }}</h4>
               <p class="mb-0">{{ $t(e.company) }}, {{ $t(e.location) }}</p>
               <small class="mb-2">{{ e.period }}</small>
+              <ul class="mt-2">
+                <li v-for="c in e.content">{{ $t(c) }}</li>
+              </ul>
               <div class="text-right">
                 <a type="button" class="btn btn-outline-light" :href="e.link">{{ $t("message.view") }}</a>
               </div>
