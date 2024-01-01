@@ -10,13 +10,13 @@ let app = new Vue({
   methods: {
     switchlang(lang) {
       var swiThis = this;
-      setTimeout(function(){
-        if (lang=='en'){
+      setTimeout(function () {
+        if (lang == 'en') {
           swiThis.locale = swiThis.$i18n.locale = 'en';
-        } else if (lang=='zh_tw') {
+        } else if (lang == 'zh_tw') {
           swiThis.locale = swiThis.$i18n.locale = 'zh_tw';
         }
-      },300);
+      }, 300);
     }
   },
   data: function () {
@@ -61,14 +61,28 @@ let app = new Vue({
             "message.creditCardBillingApp"
           ]
         },
+      ],
+      skills: [
+        { name: 'HTML', value: '100' },
+        { name: 'CSS', value: '100' },
+        { name: 'Javascript', value: '100' },
+        { name: 'NodeJS', value: '100' },
+        { name: 'AWS', value: '95' },
+        { name: 'Vue', value: '100' },
+        { name: 'Bootstrap 5', value: '95' },
+        { name: 'TailwindCSS', value: '90' },
+        { name: 'JQUERY', value: '90'},
+        { name: 'Ionic 7', value: '90' },
+        { name: 'Python', value: '90' },
+        { name: 'GCP', value: '80' }
       ]
     }
   },
-  beforeCreate: function(){
+  beforeCreate: function () {
     $(".loader, .loader-frame, .overlay").show();
   },
-  created: function(){
-    setTimeout(function(){
+  created: function () {
+    setTimeout(function () {
       $(".loader-frame, .overlay").hide();
     }, 400)
   }
@@ -82,12 +96,12 @@ $('.owl-carousel').owlCarousel({
   stagePadding: 35,
   // nav: true,
   // navText : ['<i class="fas fa-chevron-left fa-lg text-secondary"></i>','<i class="fas fa-chevron-right fa-lg text-secondary"></i>'],
-  responsive:{
-      0:{
-          items:1
-      },
-      700:{
-        items:2
-      }
+  responsive: {
+    0: {
+      items: 1
+    },
+    700: {
+      items: 2
+    }
   }
 })
