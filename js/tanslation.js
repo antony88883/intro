@@ -42,7 +42,12 @@ const messages = {
       finance: 'Finance',
       iot: 'IoT',
       umt: 'UMT',
-      view: 'view'
+      view: 'view',
+      esun: 'ESUN Bank',
+      cota: 'COTA Bank',
+      honsec: 'Horizon Securities',
+      creditCardStatement: 'Credit card statement',
+      onlineOpen: 'Online account opening'
     }
   },
   zh_tw: {
@@ -86,7 +91,12 @@ const messages = {
       finance: '金融業',
       iot: '物聯網',
       umt: '歐蒙德',
-      view: '暸解'
+      view: '暸解',
+      esun: '玉山銀行',
+      cota: '三信商銀',
+      honsec: '宏遠證券',
+      creditCardStatement: '信用卡帳單',
+      onlineOpen: '線上開戶'
     }
   }
 };
