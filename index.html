@@ -31,13 +31,13 @@
         <div class="col-11 col-md-10">
           <nav class="navbar navbar-custom justify-content-between px-0">
             <a class="navbar-brand" href="#">
-              <h3 class="text-light"  style="letter-spacing:2px">ANTONY ZHANG</h3>
+              <h3 class="text-light mb-0" style="letter-spacing:2px">ANTONY ZHANG</h3>
             </a>
+            <div class="btn-group" role="group">
+              <button class="btn btn-light btn-sm" :class="{ active: $i18n.locale === 'en' }" @click="switchlang('en')">EN</button>
+              <button class="btn btn-light btn-sm" :class="{ active: $i18n.locale === 'zh_tw' }"  @click="switchlang('zh_tw')">中</button>
+            </div>
           </nav>
-          <div class="btn-group" role="group">
-            <button class="btn btn-light btn-sm" :class="{ active: $i18n.locale === 'en' }" @click="switchlang('en')">EN</button>
-            <button class="btn btn-light btn-sm" :class="{ active: $i18n.locale === 'zh_tw' }"  @click="switchlang('zh_tw')">中</button>
-          </div>
           <div class="text-white text-center" style="padding-top:80px;padding-bottom:130px">
               <img src="imgs/me.png" class="rounded-circle" width="200" alt="profile">
             <h1 class="engineer h1 my-4">{{ $t("message.cloudEngineer")}}</h1>
