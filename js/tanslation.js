@@ -2,7 +2,9 @@
 const messages = {
   en: {
     message: {
-      cengineer: 'Senior Cloud Engineer',
+      cloudEngineer: 'Senior Cloud Engineer',
+      softwareEngineer: "Software Engineer",
+      frontendEngineer: 'Front End Developer',
       hello: 'In the past, those days surrounded by routines...until entering into the programming world, everything has changed!',
       world: 'Focus on building rich interactive web apps with solid foundations of science and mathematics',
       about: 'ABOUT',
@@ -14,9 +16,7 @@ const messages = {
             ' I am able to transform static artwork into pixel prefect, interactive and fully functional interfaces.',
       exp: 'EXPERIENCE',
       luffanet: "luffanet",
-      softe: "Software Engineer",
-      fuco: 'Fuco & Solution',
-      fe: 'Front End Developer',
+      fuco: 'Rawstone',
       sks: 'SKILLSET',
       edu: 'EDUCATION',
       math: 'Department of Mathematics',
@@ -38,7 +38,9 @@ const messages = {
   },
   zh_tw: {
     message: {
-      cengineer: '資深雲端工程師',
+      cloudEngineer: '資深雲端工程師',
+      softwareEngineer: "軟體工程師",
+      frontendEngineer: '前端工程師',
       hello: '回想從前，那些重複瑣事...直到踏入程式的世界後，一切都不一樣了！',
       world: '專注於打造具豐富體驗的應用程式，憑藉科學基礎的養成與數學能力',
       about: '關於我',
@@ -49,9 +51,7 @@ const messages = {
             '以及將平面設計轉化成生動活潑的使用介面。',
       exp: '工作經驗',
       luffanet: "辰信資訊",
-      softe: "軟體工程師",
-      fuco: '景丞科技',
-      fe: '前端工程師',
+      fuco: '景承科技',
       sks: '技能組合',
       edu: '學習經驗',
       math: '數學系',

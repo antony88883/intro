@@ -27,7 +27,7 @@ let app = new Vue({
           company: "message.umt",
           field: "message.iot",
           location: "message.newtaipei",
-          title: "message.cengineer",
+          title: "message.cloudEngineer",
           period: "February 2021 - Present"
         },
         {
@@ -35,7 +35,7 @@ let app = new Vue({
           company: "message.luffanet",
           field: "message.iot",
           location: "message.taoyuan",
-          title: "message.softe",
+          title: "message.softwareEngineer",
           period: "August 2018 - February 2021"
         },
         {
@@ -43,7 +43,7 @@ let app = new Vue({
           company: "message.fuco",
           field: "message.finance",
           location: "message.taipei",
-          title: "message.fe",
+          title: "message.frontendEngineer",
           period: "August 2016 - August 2018"
         },
       ]
