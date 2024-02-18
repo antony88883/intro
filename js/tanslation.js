@@ -9,9 +9,9 @@ const messages = {
       world: 'Focus on building rich interactive web apps with solid foundations of science and mathematics',
       about: 'ABOUT',
       about1: 'Offering creative design solutions to solve business problems is what I do best.',
-      about2: 'I write in JavaScript, CSS, HTML, and Python.' +
-        'I also use js framework such as AngularJs and Vue.js.' +
-        'I like working on scalability, performance, reusability, and great user experiences.',
+      about2: 'I am proficient in JavaScript, CSS, HTML, and Python,' +
+        'and I have expertise in utilizing frameworks like Vue.js. ' +
+        'My experience encompasses scalability, performance optimization, reusability, and delivering exceptional user experiences.',
       about3: 'As a consultant and a developer, I write code that conforms to industry standards and semantic best practices.' +
         'I am able to transform static artwork into pixel prefect, interactive and fully functional interfaces.',
       exp: 'EXPERIENCE',
@@ -59,7 +59,7 @@ const messages = {
       world: '專注於打造具豐富體驗的應用程式，憑藉科學基礎的養成與數學能力',
       about: '關於我',
       about1: '我擅長於針對商業邏輯問題提出創新的解決方案。',
-      about2: '撰寫程式包括JavaScript, CSS, HTML與Python。也會靈活運用像是 AngularJs 與 VueJs 這類ＪＳ框架。' +
+      about2: '撰寫程式包括JavaScript, CSS, HTML與Python。也會靈活運用Vue這類框架。' +
         '對程式擴展性、執行效率、可重複使用性以及使用者體驗都有相關工作經驗。',
       about3: '身為一位專業的技術顧問與開發者，我能撰寫符合工業標準的程式並實踐最佳語意化，' +
         '以及將平面設計轉化成生動活潑的使用介面。',
