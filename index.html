@@ -104,7 +104,7 @@
               <h5 class="progress-text">{{ s.name }}</h5>
               <div class="progress" style="height:12px">
                 <div class="progress-bar" role="progressbar" :aria-valuenow="s.value" aria-valuemin="0"
-                  aria-valuemax="100" :style="{ width: s.value + '%'}"></div>
+                  :aria-label="s.name" aria-valuemax="100" :style="{ width: s.value + '%'}"></div>
               </div>
             </div>
           </div>
