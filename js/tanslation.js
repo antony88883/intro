@@ -12,7 +12,7 @@ const messages = {
       about2: 'I am proficient in JavaScript, CSS, HTML, and Python,' +
         'and I have expertise in utilizing frameworks like Vue.js. ' +
         'My experience encompasses scalability, performance optimization, reusability, and delivering exceptional user experiences.',
-      about3: 'As a consultant and a developer, I write code that conforms to industry standards and semantic best practices.' +
+      about3: 'As a consultant and a developer, I write code that conforms to industry standards and semantic best practices. ' +
         'I am able to transform static artwork into pixel prefect, interactive and fully functional interfaces.',
       exp: 'EXPERIENCE',
       assistEuropeanClientsAWSPlanning: "Assisting European clients building with AWS (EC2, Lambda, DynamoDB, S3, CloudFront).",
