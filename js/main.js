@@ -79,6 +79,26 @@ let app = new Vue({
       educations: [
         { year: '2013', school: 'message.ncku', subject: 'message.math' },
         { year: '2009', school: 'message.kshs', subject: 'message.general' }
+      ],
+      works: [
+        {
+          name: 'esun',
+          company: 'message.esun',
+          project: 'message.creditCardStatement',
+          files: ['esun1', 'esun2', 'esun3', 'esun4', 'esun5']
+        },
+        {
+          name: 'cota',
+          company: 'message.cota',
+          project: 'message.creditCardStatement',
+          files: ['cota1', 'cota2', 'cota3', 'cota4', 'cota5']
+        },
+        {
+          name: 'honsec',
+          company: 'message.honsec',
+          project: 'message.onlineOpen',
+          files: ['honsec01', 'honsec02', 'honsec03', 'honsec04', 'honsec05']
+        }
       ]
     }
   },

@@ -8,7 +8,6 @@
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-
     gtag('config', 'UA-78634513-2');
   </script>
   <meta charset="UTF-8">
@@ -24,6 +23,7 @@
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="css/owl.carousel.min.css">
   <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="icon shortcut" type="image/png" href="imgs/favicon.png" />
 </head>
@@ -78,7 +78,7 @@
           <div class="card text-white border-light bg-transparent mb-3 custom-radius" v-for="e in experiences">
             <div class="card-body custom-opacity">
               <span class="badge badge-dark mb-2"><i class="fas fa-toolbox"></i>&nbsp;{{ $t(e.field) }}</span>
-              <h4>{{ $t(e.title) }}</h4>
+              <h3 class="h-4">{{ $t(e.title) }}</h3>
               <p class="mb-0">{{ $t(e.company) }}, {{ $t(e.location) }}</p>
               <small class="mb-2">{{ e.period }}</small>
               <ul class="mt-2">
@@ -184,6 +184,24 @@
                 </div>
               </div>
             </div>
+            <div class="col col-sm-11 col-md-8 col-lg-10 p-0 mt-3" v-for="w in works">
+              <div class="card card-border">
+                <div class="card-body card-border bg-secondary px-0">
+                  <h3 class="h5 text-center text-white my-2">{{ $t(w.company) }} - {{ $t(w.project) }}</h3>
+                      <div class="swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                          <!-- Slides -->
+                          <div class="swiper-slide card-border" v-for="(f, i) in w.files">
+                            <img class="card-border d-block img-fluid" :src="`imgs/${w.name}/${f}.png`" :alt="`slide-${f}-${i}`">
+                          </div>
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -228,12 +246,14 @@
     crossorigin="anonymous"></script>
   <!--vuejs part-->
   <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="https://unpkg.com/vue-i18n@8"></script>
   <script src="js/custom-carousel.js"></script>
   <script src="js/carousel-swipe.js"></script>
   <script src="js/owl.carousel.min.js"></script>
   <script src="js/tanslation.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/swiper.js"></script>
 </body>
 
 </html>
