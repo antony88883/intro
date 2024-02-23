@@ -65,16 +65,16 @@ let app = new Vue({
       skills: [
         { name: 'HTML', value: '100' },
         { name: 'CSS', value: '100' },
-        { name: 'Javascript', value: '100' },
-        { name: 'NodeJS', value: '100' },
+        { name: 'JavaScript', value: '100' },
+        { name: 'Node.js', value: '100' },
+        { name: 'Vue', value: '100' },
         { name: 'AWS', value: '95' },
-        { name: 'VUE', value: '100' },
-        { name: 'Bootstrap 5', value: '95' },
-        { name: 'TailwindCSS', value: '90' },
-        { name: 'JQUERY', value: '90' },
+        { name: 'Tailwind CSS', value: '95' },
+        { name: 'Bootstrap', value: '95' },
         { name: 'Ionic 7', value: '90' },
-        { name: 'Python', value: '90' },
-        { name: 'GCP', value: '80' }
+        { name: 'jQuery', value: '90' },
+        { name: 'Python', value: '80' },
+        { name: 'GCP', value: '75' }
       ],
       educations: [
         { year: '2013', school: 'message.ncku', subject: 'message.math' },
