@@ -43,7 +43,7 @@
             </div>
           </nav>
           <div class="text-center pt-20 pb-32">
-            <img src="imgs/me.png" class="rounded-circle border border-white" width="200" alt="profile">
+            <img loading="lazy" src="imgs/me.png" class="rounded-circle border border-white" width="200" alt="profile">
             <h1 class="h1 text-white font-weight-bold my-4">{{ $t("message.cloudEngineer") }}</h1>
             <p class="text-light">{{ $t("message.hello") }}</p>
             <h2 class="h4 text-light tracking-wider leading-7">{{ $t("message.world") }}</h2>
@@ -144,7 +144,7 @@
                     <div class="swiper-wrapper">
                       <!-- Slides -->
                       <div class="swiper-slide rounded-xl" v-for="(f, i) in w.files">
-                        <img class="rounded-xl d-block img-fluid" :src="`imgs/${w.name}/${f}.png`"
+                        <img loading="lazy" class="rounded-xl d-block img-fluid" :src="`imgs/${w.name}/${f}.png`"
                           :alt="`slide-${f}-${i}`">
                       </div>
                     </div>
