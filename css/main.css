@@ -1,24 +1,73 @@
-.main-section {
+[v-cloak] {
+  display: none;
+}
+
+.bg-gradient {
   background-image: linear-gradient(120deg, #d6abff 0%, #7fbdfa 100%);
 }
 
-.intro {
-  padding:30px;
-}
-.navbar-custom {
-  padding-top: 30px;
-}
-.bg-custom {
-  background-color: #aaa;
+.pt-8 {
+  padding-top: 2rem;
 }
 
-.about-title, .skillset-title, .myworks-title {
-  color:#337ab7;
+.pt-20 {
+  padding-top: 5rem;
+}
+
+.pb-16 {
+  padding-bottom: 4rem;
+}
+
+.pb-20 {
+  padding-bottom: 5rem;
+}
+
+.pb-32 {
+  padding-bottom: 8rem;
+}
+
+.tracking-wider {
+  letter-spacing: 0.05em;
+}
+
+.tracking-widest {
+  letter-spacing: 0.125em;
+}
+
+.leading-7 {
+  line-height: 1.75rem;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
+.opacity-95 {
+  opacity: 0.95;
+}
+
+.text-gray-600 {
+  color: rgb(75 85 99);
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  /* 18px */
+  line-height: 1.75rem;
+  /* 28px */
+}
+
+.about-title,
+.skillset-title,
+.myworks-title {
+  color: #337ab7;
   font-weight: bold;
   letter-spacing: 2px;
 }
 
-.about-title:after, .skillset-title:after, .myworks-title:after {
+.about-title:after,
+.skillset-title:after,
+.myworks-title:after {
   content: ' ';
   display: block;
   width: 50px;
@@ -26,58 +75,38 @@
   border: 2px solid #337ab7;
 }
 
-.fa-lightbulb, .fa-cube, .fa-bookmark {
+.fa-lightbulb,
+.fa-cube,
+.fa-bookmark {
   padding-top: 10px;
   color: #ccccff;
   font-size: 48px;
 }
 
-.about-text > p {
-  color:#595959;
-  font-size:18px;
-  letter-spacing:1px;
-  line-height:30px;
-}
-
-.fa-connectdevelop, .fa-graduation-cap, .fa-envelope {
+.fa-connectdevelop,
+.fa-graduation-cap,
+.fa-envelope {
   padding-top: 10px;
   color: #eee;
   font-size: 48px;
 }
-.experience-title, .education-title, .contact-title {
-  color:#fff;
+
+.experience-title,
+.education-title,
+.contact-title {
+  color: #fff;
   font-weight: bold;
   letter-spacing: 2px;
 }
 
-.experience-title:after, .education-title:after, .contact-title:after {
- content: ' ';
- display: block;
- width: 50px;
- margin: 10px auto -10px 0;
- border: 2px solid #fff;
-}
-
-.custom-radius {
-  border-radius: .8rem;
-}
-
-.custom-opacity {
-  opacity: .95;
-}
-
-.link-style {
-  color:white;
-}
-.link-style:hover {
-  color: #ddd;
-}
-
-.progress-text {
-  font-size: 15px;
-  letter-spacing: 2px;
-  /*color: rgba(34,125,170,1);*/
-  color: #666;
+.experience-title:after,
+.education-title:after,
+.contact-title:after {
+  content: ' ';
+  display: block;
+  width: 50px;
+  margin: 10px auto -10px 0;
+  border: 2px solid #fff;
 }
 
 .progress-bar {
@@ -85,40 +114,30 @@
   border-radius: .25rem;
 }
 
-.contact-text {
-  color: white;
-}
-
-.footer-section {
-  background: transparent;
-}
-
-.card-radius {
-  border-radius: .75rem;
-}
-
-[v-cloak] {
-  display: none;
-}
-
-.card-body {
-  overflow: hidden;
+.color-main {
+  color: #337ab7;
 }
 
 /* -- loading png */
-.overlay{
-  position: fixed; /* Sit on top of the page content */
-  display: none; /* Hidden by default */
-  width: 100%; /* Full width (cover the whole page) */
-  height: 1400px; /* Full height (cover the whole page) */
+.overlay {
+  position: fixed;
+  /* Sit on top of the page content */
+  display: none;
+  /* Hidden by default */
+  width: 100%;
+  /* Full width (cover the whole page) */
+  height: 1400px;
+  /* Full height (cover the whole page) */
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   z-index: 14;
   /*border-radius: .75rem;*/
-  background-color: rgba(255,255,255,0.96); /*dim the background*/
+  background-color: rgba(255, 255, 255, 0.96);
+  /*dim the background*/
 }
+
 /* loading part */
 .loader-frame {
   position: fixed;
@@ -127,6 +146,7 @@
   z-index: 15;
   border-radius: .55rem;
 }
+
 .loader {
   border: 6px solid #b1cfe9;
   border-radius: 50%;
@@ -135,23 +155,31 @@
   width: 50px;
   height: 50px;
   margin: auto;
-  -webkit-animation: spin 2s linear infinite; /* Safari */
-     -moz-animation: spin 2s linear infinite;
-      -ms-animation: spin 2s linear infinite;
-       -o-animation: spin 2s linear infinite;
-          animation: spin 2s linear infinite;
+  -webkit-animation: spin 2s linear infinite;
+  /* Safari */
+  -moz-animation: spin 2s linear infinite;
+  -ms-animation: spin 2s linear infinite;
+  -o-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
 }
-.color-main {
-  color: #337ab7;
-}
+
 /* Safari */
 @-webkit-keyframes spin {
-  0% { -webkit-transform: rotate(0deg); }
-  100% { -webkit-transform: rotate(360deg); }
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
 }
 
 @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-}
+  0% {
+    transform: rotate(0deg);
+  }
 
+  100% {
+    transform: rotate(360deg);
+  }
+}

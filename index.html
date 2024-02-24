@@ -28,12 +28,13 @@
 
 <body>
   <div id="app" v-cloak>
-    <div class="container-fluid main-section">
+    <div class="container-fluid bg-gradient">
       <div class="row justify-content-center">
         <div class="col-11 col-md-10">
-          <nav class="navbar navbar-custom justify-content-between px-0">
+          <!-- navbar -->
+          <nav class="navbar justify-content-between px-0 pt-8">
             <a class="navbar-brand" href="#">
-              <h3 class="text-light mb-0" style="letter-spacing:2px">ANTONY ZHANG</h3>
+              <h3 class="text-light tracking-wider mb-0">ANTONY ZHANG</h3>
             </a>
             <div class="btn-group" role="group">
               <button class="btn btn-light" :class="{ active: $i18n.locale === 'en' }"
@@ -42,39 +43,39 @@
                 @click="switchlang('zh_tw')">中</button>
             </div>
           </nav>
-          <div class="text-center" style="padding-top:80px;padding-bottom:130px">
+          <div class="text-center pt-20 pb-32">
             <img src="imgs/me.png" class="rounded-circle border border-white" width="200" alt="profile">
-            <h1 class="h1 text-white font-weight-bold my-4">{{ $t("message.cloudEngineer")}}</h1>
+            <h1 class="h1 text-white font-weight-bold my-4">{{ $t("message.cloudEngineer") }}</h1>
             <p class="text-light">{{ $t("message.hello") }}</p>
-            <h2 class="h4 text-light" style="letter-spacing:1px;line-height:30px">{{ $t("message.world")}}</h2>
+            <h2 class="h4 text-light tracking-wider leading-7">{{ $t("message.world") }}</h2>
           </div>
         </div>
       </div>
     </div>
     <!--about-->
-    <div class="container-fluid" style="padding-top:80px">
+    <div class="container-fluid pt-20 pb-20">
       <div class="row justify-content-center">
         <div class="col-11 col-sm-4 col-md-4 col-lg-3">
-          <h2 class="about-title">{{ $t("message.about")}}</h2>
+          <h2 class="about-title">{{ $t("message.about") }}</h2>
           <i class="far fa-lightbulb my-3"></i>
         </div>
-        <div class="col-11 col-sm-4 col-md-6 col-lg-7 about-text">
-          <p>{{ $t("message.about1")}}</p>
-          <p>{{ $t("message.about2")}}</p>
-          <p style="padding-bottom:54px">{{ $t("message.about3")}}</p>
+        <div class="col-11 col-sm-4 col-md-6 col-lg-7 text-lg text-gray-600 tracking-wider">
+          <p>{{ $t("message.about1") }}</p>
+          <p>{{ $t("message.about2") }}</p>
+          <p>{{ $t("message.about3") }}</p>
         </div>
       </div>
     </div>
     <!--experience-->
-    <div class="container-fluid main-section" style="padding-top:80px">
+    <div class="container-fluid bg-gradient pt-20 pb-16">
       <div class="row justify-content-center">
         <div class="col-11 col-sm-4 col-md-4 col-lg-3">
-          <h2 class="experience-title">{{ $t("message.exp")}}</h2>
+          <h2 class="experience-title">{{ $t("message.exp") }}</h2>
           <i class="fab fa-connectdevelop my-3"></i>
         </div>
-        <div class="col-11 col-sm-4 col-md-6 col-lg-7" style="padding-bottom:64px">
-          <div class="card text-white border-light bg-transparent mb-3 custom-radius" v-for="e in experiences">
-            <div class="card-body custom-opacity">
+        <div class="col-11 col-sm-4 col-md-6 col-lg-7">
+          <div class="card text-white border-light bg-transparent rounded-xl mb-4" v-for="e in experiences">
+            <div class="card-body opacity-95">
               <span class="badge badge-dark mb-2"><i class="fas fa-toolbox"></i>&nbsp;{{ $t(e.field) }}</span>
               <h3 class="h-4">{{ $t(e.title) }}</h3>
               <p class="mb-0">{{ $t(e.company) }}, {{ $t(e.location) }}</p>
@@ -91,16 +92,16 @@
       </div>
     </div>
     <!--skillset-->
-    <div class="container-fluid" style="padding-top:80px">
+    <div class="container-fluid pt-20 pb-16">
       <div class="row justify-content-center">
         <div class="col-11 col-sm-4 col-md-4 col-lg-3">
-          <h2 class="skillset-title">{{ $t("message.sks")}}</h2>
+          <h2 class="skillset-title">{{ $t("message.sks") }}</h2>
           <i class="fas fa-cube my-3"></i>
         </div>
-        <div class="col-11 col-sm-4 col-md-6 col-lg-7" style="padding-bottom:80px">
+        <div class="col-11 col-sm-4 col-md-6 col-lg-7">
           <div class="row justify-content-center">
-            <div class="col-6 col-md-4 my-2" v-for="s in skills">
-              <h3 class="progress-text">{{ s.name }}</h3>
+            <div class="col-6 col-md-4 mb-4" v-for="s in skills">
+              <h3 class="text-lg text-gray-600 tracking-wider">{{ s.name }}</h3>
               <div class="progress" style="height:8px">
                 <div class="progress-bar" role="progressbar" :aria-valuenow="s.value" aria-valuemin="0"
                   :aria-label="s.name" aria-valuemax="100" :style="{ width: s.value + '%'}"></div>
@@ -111,14 +112,14 @@
       </div>
     </div>
     <!--education-->
-    <div class="container-fluid main-section" style="padding-top:80px;">
+    <div class="container-fluid bg-gradient pt-20 pb-16">
       <div class="row justify-content-center">
         <div class="col-11 col-sm-4 col-md-4 col-lg-3">
-          <h2 class="education-title">{{ $t("message.edu")}}</h2>
+          <h2 class="education-title">{{ $t("message.edu") }}</h2>
           <i class="fas fa-graduation-cap my-3"></i>
         </div>
-        <div class="col-11 col-sm-4 col-md-6 col-lg-7 text-white" style="padding-bottom:80px">
-          <div class="mb-3" v-for="e in educations">
+        <div class="col-11 col-sm-4 col-md-6 col-lg-7 text-white">
+          <div class="mb-4" v-for="e in educations">
             <span class="badge badge-secondary mb-2">{{ e.year }}</span>
             <h3 class="h4">{{ $t(e.subject) }}</h3>
             <p class="text-light-custom">{{ $t(e.school) }}</p>
@@ -127,29 +128,30 @@
       </div>
     </div>
     <!--myworks-->
-    <div class="container-fluid" style="padding-top:80px">
+    <div class="container-fluid pt-20 pb-16">
       <div class="row justify-content-center">
         <div class="col-11 col-sm-4 col-md-4 col-lg-3">
-          <h2 class="myworks-title">{{ $t("message.myworks")}}</h2>
+          <h2 class="myworks-title">{{ $t("message.myworks") }}</h2>
           <i class="fas fa-bookmark my-3"></i>
         </div>
-        <div class="col-11 col-sm-4 col-md-6 col-lg-7" style="padding-bottom:80px">
+        <div class="col-11 col-sm-4 col-md-6 col-lg-7">
           <div class="row">
-            <div class="col col-sm-11 col-md-10 col-lg-9 p-0 mt-3" v-for="w in works">
-              <div class="card card-radius border-0">
-                <div class="card-body card-radius bg-secondary px-0">
+            <div class="col col-sm-11 col-md-10 col-lg-9 p-0 mb-4" v-for="w in works">
+              <div class="card rounded-xl border-0">
+                <div class="card-body rounded-xl bg-secondary px-0">
                   <h3 class="h5 text-center text-white my-2 pb-1">{{ $t(w.company) }} - {{ $t(w.project) }}</h3>
-                    <div class="swiper">
-                      <!-- Additional required wrapper -->
-                      <div class="swiper-wrapper">
-                        <!-- Slides -->
-                        <div class="swiper-slide card-radius" v-for="(f, i) in w.files">
-                          <img class="card-radius d-block img-fluid" :src="`imgs/${w.name}/${f}.png`" :alt="`slide-${f}-${i}`">
-                        </div>
+                  <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide rounded-xl" v-for="(f, i) in w.files">
+                        <img class="rounded-xl d-block img-fluid" :src="`imgs/${w.name}/${f}.png`"
+                          :alt="`slide-${f}-${i}`">
                       </div>
-                      <!-- If we need pagination -->
-                      <div class="swiper-pagination"></div>
                     </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -158,22 +160,22 @@
       </div>
     </div>
     <!--contact me-->
-    <div class="container-fluid main-section" style="padding-top:80px">
+    <div class="container-fluid bg-gradient pt-20">
       <div class="row justify-content-center">
         <div class="col-11 col-sm-4 col-md-4 col-lg-3">
-          <h2 class="contact-title">{{ $t("message.contact")}}</h2>
+          <h2 class="contact-title">{{ $t("message.contact") }}</h2>
           <i class="far fa-envelope my-3"></i>
         </div>
-        <div class="col-11 col-sm-4 col-md-6 col-lg-7" style="padding-bottom:80px">
-          <p class="contact-text">{{ $t("message.message")}}</p>
-          <p class="contact-text h4">antony88883@gmail.com</p>
+        <div class="col-11 col-sm-4 col-md-6 col-lg-7">
+          <p class="text-white">{{ $t("message.message") }}</p>
+          <p class="h4 text-white">antony88883@gmail.com</p>
         </div>
       </div>
       <!--footer-->
-      <div class="footer-section">
+      <div class="pt-4">
         <div class="row justify-content-center">
-          <div class="mx-auto col-10 text-center">
-            <p class="text-light my-3" style="letter-spacing:2px">© {{ new Date().getFullYear() }} Antony Zhang</p>
+          <div class="col-10 mx-auto text-center">
+            <p class="text-light my-3 tracking-widest">© {{ new Date().getFullYear() }} Antony Zhang</p>
           </div>
         </div>
       </div>
