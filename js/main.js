@@ -25,6 +25,7 @@ let app = new Vue({
         {
           link: "https://umt.tw",
           company: "message.umt",
+          icon: "bi-router",
           field: "message.iot",
           location: "message.newtaipei",
           title: "message.cloudEngineer",
@@ -38,6 +39,7 @@ let app = new Vue({
         {
           link: "https://www.luffanet.com.tw",
           company: "message.luffanet",
+          icon: "bi-router",
           field: "message.iot",
           location: "message.taoyuan",
           title: "message.softwareEngineer",
@@ -51,6 +53,7 @@ let app = new Vue({
         {
           link: "https://www.rawstone.com.tw",
           company: "message.fuco",
+          icon: "bi-bank",
           field: "message.finance",
           location: "message.taipei",
           title: "message.frontendEngineer",
