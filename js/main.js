@@ -101,13 +101,5 @@ let app = new Vue({
         }
       ]
     }
-  },
-  beforeCreate: function () {
-    $(".loader, .loader-frame, .overlay").show();
-  },
-  created: function () {
-    setTimeout(function () {
-      $(".loader-frame, .overlay").hide();
-    }, 400)
   }
 })
